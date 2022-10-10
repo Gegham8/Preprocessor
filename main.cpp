@@ -1,5 +1,4 @@
 #include "Preprocessor.h"
-#define X 10
 int main(int argc, char **argv)
 {
     Preprocessor proc;
