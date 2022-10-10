@@ -28,6 +28,7 @@ void Preprocessor::PreProcess(const std::string& filename)
             auto vec = split(line, dst);
             if (vec[0] == "#endif")
             {
+                fout << std::endl;
                 flag = true;
                 continue;
             }
