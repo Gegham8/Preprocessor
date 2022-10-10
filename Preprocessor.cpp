@@ -46,6 +46,8 @@ void Preprocessor::PreProcess(const std::string& filename)
             }
         }
     }
+    fin.close();
+    fout.close();
 }
 void Preprocessor::ifndef(const std::string& line)
 {
